@@ -1,0 +1,46 @@
+@import './def.scss';
+
+.home_left, .home_right{
+	padding: .5rem;
+	.icon{
+		font-size: 18px;
+		cursor: pointer;
+		&:before{
+			padding-right: 4px;
+		};
+	}
+}
+.home_left{
+	float: left;
+	.article_box{
+		width: 100%;
+		height: 100%;
+		.article_item{
+			width: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			line-height: 2rem;
+			color: #3A29FF;
+			cursor: pointer;
+		}
+	}
+}
+.home_right{
+	.article_list{
+		margin-top: 1rem;
+		&:first-child{
+			margin-top: 0;
+		}
+	}
+}
+.mt_10{
+	margin-top: 10px;
+}
+.notice_edit{
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	resize: none;
+}
